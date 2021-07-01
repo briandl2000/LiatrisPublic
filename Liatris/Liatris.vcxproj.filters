@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{2DAB880B-99B4-887C-2230-9F7C8E38947C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Liatris">
+      <UniqueIdentifier>{94284EE3-00DE-C6D8-89D2-C0AFF586BDDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Liatris\Core">
+      <UniqueIdentifier>{6CC91BCF-58C2-3A21-81F4-1FA66D4C1A2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Liatris\Events">
+      <UniqueIdentifier>{F8E5550A-E4C9-1660-4D2A-11B3392D01E2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Liatris\ImGui">
+      <UniqueIdentifier>{BEBCFFB2-2AD3-FD48-734A-896ADF9FCED0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Liatris\Math">
+      <UniqueIdentifier>{ED0921CF-D902-4021-0235-25A6EE8C1F2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Liatris\Renderer">
+      <UniqueIdentifier>{BA5262EE-A6E1-EBB7-4F00-00B33B6EFC5D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Liatris\Scene">
+      <UniqueIdentifier>{B1B4AFB3-1DCB-AD49-6642-396BD2977ED1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Platform">
+      <UniqueIdentifier>{21CA02E5-0D2D-9289-B6B2-CA3FA2F45D0C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Platform\OpenGL">
+      <UniqueIdentifier>{35A49437-A105-7245-2A73-B8F796D3A804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Platform\Windows">
+      <UniqueIdentifier>{5B054582-4794-CE4B-F0B2-E246DC20DFF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor">
+      <UniqueIdentifier>{B3738122-9F15-ACF8-88D0-BF4C74113349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="vendor\ImGuizmo">
+      <UniqueIdentifier>{73BF7F4C-DF4A-ED10-E85B-700554664911}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Liatris.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\Application.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\Base.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\EntryPoint.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\Input.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\KeyCodes.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\Layer.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\LayerStack.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\Log.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\MouseButtonCodes.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\Timestep.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Core\Window.h">
+      <Filter>src\Liatris\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Events\ApplicationEvent.h">
+      <Filter>src\Liatris\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Events\Event.h">
+      <Filter>src\Liatris\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Events\KeyEvent.h">
+      <Filter>src\Liatris\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Events\MouseEvent.h">
+      <Filter>src\Liatris\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\ImGui\ImGuiLayer.h">
+      <Filter>src\Liatris\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Math\Math.h">
+      <Filter>src\Liatris\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\Buffer.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\Camera.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\EditorCamera.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\Framebuffer.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\GraphicsContext.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\Model.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\PerspectiveCamera.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\RenderCommand.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\Renderer.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\RendererAPI.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\Shader.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\UniformBuffer.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Renderer\VertexArray.h">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Scene\Components.h">
+      <Filter>src\Liatris\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Scene\Entity.h">
+      <Filter>src\Liatris\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Scene\Scene.h">
+      <Filter>src\Liatris\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Scene\SceneCamera.h">
+      <Filter>src\Liatris\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Liatris\Scene\ScriptableEntity.h">
+      <Filter>src\Liatris\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\OpenGLBuffer.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\OpenGLContext.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\OpenGLFramebuffer.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\OpenGLModel.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\OpenGLRendererAPI.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\OpenGLShader.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\OpenGLUniformBuffer.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\OpenGL\OpenGLVertexArray.h">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsInput.h">
+      <Filter>src\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
+      <Filter>src\Platform\Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\liapch.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="vendor\ImGuizmo\ImGuizmo.h">
+      <Filter>vendor\ImGuizmo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Liatris\Core\Application.cpp">
+      <Filter>src\Liatris\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Core\Layer.cpp">
+      <Filter>src\Liatris\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Core\LayerStack.cpp">
+      <Filter>src\Liatris\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Core\Log.cpp">
+      <Filter>src\Liatris\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\ImGui\ImGuiBuild.cpp">
+      <Filter>src\Liatris\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\ImGui\ImGuiLayer.cpp">
+      <Filter>src\Liatris\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Math\Math.cpp">
+      <Filter>src\Liatris\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\Buffer.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\EditorCamera.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\Framebuffer.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\Model.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\PerspectiveCamera.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\RenderCommand.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\Renderer.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\RendererAPI.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\Shader.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\UniformBuffer.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Renderer\VertexArray.cpp">
+      <Filter>src\Liatris\Renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Scene\Entity.cpp">
+      <Filter>src\Liatris\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Scene\Scene.cpp">
+      <Filter>src\Liatris\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Liatris\Scene\SceneCamera.cpp">
+      <Filter>src\Liatris\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\OpenGLBuffer.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\OpenGLContext.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\OpenGLFramebuffer.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\OpenGLModel.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\OpenGLRendererAPI.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\OpenGLShader.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\OpenGLUniformBuffer.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\OpenGL\OpenGLVertexArray.cpp">
+      <Filter>src\Platform\OpenGL</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsInput.cpp">
+      <Filter>src\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
+      <Filter>src\Platform\Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\liapch.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="vendor\ImGuizmo\ImGuizmo.cpp">
+      <Filter>vendor\ImGuizmo</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

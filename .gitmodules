@@ -1,0 +1,15 @@
+[submodule "Liatris/vendor/spdlog"]
+	path = Liatris/vendor/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Liatris/vendor/GLFW"]
+	path = Liatris/vendor/GLFW
+	url = https://github.com/TheCherno/glfw
+[submodule "Liatris/vendor/imgui"]
+	path = Liatris/vendor/imgui
+	url = https://github.com/theCherno/imgui
+[submodule "Liatris/vendor/glm"]
+	path = Liatris/vendor/glm
+	url = https://github.com/g-truc/glm
+[submodule "Liatris/vendor/ImGuizmo"]
+	path = Liatris/vendor/ImGuizmo
+	url = https://github.com/TheCherno/ImGuizmo
