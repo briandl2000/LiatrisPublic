@@ -161,9 +161,7 @@ namespace Liatris
 		s_Data.FragmentUniformBuffer = UniformBuffer::Create(sizeof(RendererStorage::FragmentData), 2);
 		s_Data.CameraFrustumUniformBuffer = UniformBuffer::Create(sizeof(RendererStorage::CameraFrustumData), 3);
 
-		s_Data.models["assets/Models/ruby_rose/scene.gltf"] = Model::Create("assets/Models/ruby_rose/scene.gltf");
 		s_Data.models["assets/Models/CyberBike/scene.gltf"] = Model::Create("assets/Models/CyberBike/scene.gltf");
-		s_Data.models["assets/Models/Model/scene.gltf"]		= Model::Create("assets/Models/Model/scene.gltf");
 	}
 	
 	void Renderer::BeginScene(const Camera& camera, const glm::mat4& transform)
