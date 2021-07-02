@@ -161,7 +161,7 @@ namespace Liatris
 		s_Data.FragmentUniformBuffer = UniformBuffer::Create(sizeof(RendererStorage::FragmentData), 2);
 		s_Data.CameraFrustumUniformBuffer = UniformBuffer::Create(sizeof(RendererStorage::CameraFrustumData), 3);
 
-		//s_Data.models["assets/Models/CyberBike/scene.gltf"] = Model::Create("assets/Models/CyberBike/scene.gltf");
+		s_Data.models["assets/Models/CyberBike/scene.gltf"] = Model::Create("assets/Models/CyberBike/scene.gltf");
 	}
 	
 	void Renderer::BeginScene(const Camera& camera, const glm::mat4& transform)
@@ -184,7 +184,7 @@ namespace Liatris
 				break;
 			case ShaderID::GridShader:
 				s_Data.gridShader->Bind();
-				//RenderCommand::RenderVertexIndexed(6);
+				RenderCommand::RenderVertexIndexed(6);
 				break;
 			case ShaderID::CameraFrustumShader:
 				s_Data.cameraFrustumShader->Bind();
