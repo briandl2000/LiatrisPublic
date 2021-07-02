@@ -36,8 +36,8 @@ namespace Liatris
 
 		m_Camera = EditorCamera(60.0f, 16.f / 9.f, 0.03f, 10000.f);
 
-		auto& bike = m_ActiveScene->CreateEntity("bike");
-		bike.AddComponent<MeshRendererComponent>().meshName = "assets/Models/CyberBike/scene.gltf";
+		auto& bike = m_ActiveScene->CreateEntity("quad");
+		bike.AddComponent<QuadRendererComponent>();
 	}
 
 	void EditorLayer::OnUpdate(Liatris::Timestep ts)
